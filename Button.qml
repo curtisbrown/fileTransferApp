@@ -11,7 +11,7 @@ Rectangle {
         anchors.centerIn: parent
         wrapMode: Text.WordWrap
         id: buttonText
-        text: "default"
+        text: "default text"
     }
 
     MouseArea {
