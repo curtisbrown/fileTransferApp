@@ -23,10 +23,12 @@ Project {
             submodules: ["core", "gui", "network", "qml", "quick"];
         }
         Group {
-            name: "C++ files";
-            files: [
-                "main.cpp",
-            ];
+            name: "C++ Source";
+            files: [ "*.cpp" ];
+        }
+        Group {
+            name: "C++ Headers";
+            files: [ "*.h" ];
         }
         Group {
             name: "Qml files";
@@ -35,9 +37,7 @@ Project {
         }
         Group {
             name: "Qrc";
-            files: [
-                "images.qrc"
-            ];
+            files: [ "images.qrc" ];
         }
         Group {
             qbs.install: true;
