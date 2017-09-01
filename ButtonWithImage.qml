@@ -15,8 +15,9 @@ Rectangle {
         id: icon
         anchors.centerIn: parent
         source: "images/default.png"
-        sourceSize.width: 75
-        sourceSize.height: 75
+        fillMode: Image.PreserveAspectFit
+        width: 75
+        height: 75
     }
 
     Text {
