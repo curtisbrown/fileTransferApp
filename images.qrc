@@ -4,5 +4,8 @@
         <file>images/default.png</file>
         <file>images/selectFile.png</file>
         <file>images/sendFile.png</file>
+        <file>images/windowsToUbuntu.png</file>
+        <file>images/ubuntu-windows.png</file>
+        <file>images/windowsToUbuntu1.png</file>
     </qresource>
 </RCC>
